@@ -1,13 +1,13 @@
 ---Customer Links
 
-1.http://localhost:7080/custLogin/user1/password1
-2.http://localhost:7080/viewMyInvestment
-3.http://localhost:7080/directInvest/user1/10001/15000
-4.http://localhost:7080//buyGold/user1/1
-5.http://localhost:7080/buySilver/user1/1
-6.http://localhost:7080/sellGold/user1/1
-7.http://localhost:7080/sellSilver/user1/1
-8.http://localhost:7080//investSipMf/user1/10002
+1.http://10.102.54.165:7080/custLogin/user1/password1
+2.http://10.102.54.165:7080/viewMyInvestment
+3.http://10.102.54.165:7080/directInvest/user1/10001/15000
+4.http://10.102.54.165:7080//buyGold/user1/1
+5.http://10.102.54.165:7080/buySilver/user1/1
+6.http://10.102.54.165:7080/sellGold/user1/1
+7.http://10.102.54.165:7080/sellSilver/user1/1
+8.http://10.102.54.165:7080//investSipMf/user1/10002
 {
 	"mfAmount":"2000",
 	"openingDate":"2019-11-23",
@@ -15,22 +15,22 @@
 	"duration":"10"
 }
 
-9.http://localhost:7080/viewSipMf
-10.http://localhost:7080/viewTrans/user1
-11.http://localhost:7080/viewDirectMf
-12.http://localhost:7080/withdrawDirMf/user1/{folioNumber}
-13.http://localhost:7080/withdrawSipMf/user1/{folioNumber}
-14.http://localhost:7080/linkAccount/12341234123/user1
+9.http://10.102.54.165:7080/viewSipMf
+10.http://10.102.54.165:7080/viewTrans/user1
+11.http://10.102.54.165:7080/viewDirectMf
+12.http://10.102.54.165:7080/withdrawDirMf/user1/{folioNumber}
+13.http://10.102.54.165:7080/withdrawSipMf/user1/{folioNumber}
+14.http://10.102.54.165:7080/linkAccount/12341234123/user1
 
 
 ----Bank links
-1. http://localhost:7080/bankLogin/id1/pass1
-2. http://localhost:7080/viewGPrice
-3. http://localhost:7080/viewSPrice
-4. http://localhost:7080/updateGPrice/3800
-5. http://localhost:7080/updateSPrice/600
-6. http://localhost:7080/viewMf
-7. http://localhost:7080/addMf
+1. http://10.102.54.165:7080/bankLogin/id1/pass1
+2. http://10.102.54.165:7080/viewGPrice
+3. http://10.102.54.165:7080/viewSPrice
+4. http://10.102.54.165:7080/updateGPrice/3800
+5. http://10.102.54.165:7080/updateSPrice/600
+6. http://10.102.54.165:7080/viewMf
+7. http://10.102.54.165:7080/addMf
 {
 "mfPlanId": "10006",
 "title":"IBS_Star",
@@ -39,10 +39,10 @@
 "minAmtDir":"10000",
 "sipStatus":"true"
 }
-8. http://localhost:7080/updateNav/10002/500
-9. http://localhost:7080/updateSipStatus/10006/false
-10. http://localhost:7080//updateDirStatus/10006/false
-11. http://localhost:7080/updateMinDirAmt/10006/800
-12. http://localhost:7080//updateMinSipAmt/10006/1000
-13. http://localhost:7080/removeMf/10006
+8. http://10.102.54.165:7080/updateNav/10002/500
+9. http://10.102.54.165:7080/updateSipStatus/10006/false
+10. http://10.102.54.165:7080//updateDirStatus/10006/false
+11. http://10.102.54.165:7080/updateMinDirAmt/10006/800
+12. http://10.102.54.165:7080//updateMinSipAmt/10006/1000
+13. http://10.102.54.165:7080/removeMf/10006
 14. 
