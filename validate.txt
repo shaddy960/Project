@@ -1,0 +1,20 @@
+  <tr style="background-color: rgb(230, 79, 33)">
+style="color:white;"
+<app-banklogout></app-banklogout>
+<button  type="button" a routerLink="custSil"  class="btn btn-link" (click)="onGoBack()"style="float:right;color: rgb(230, 79, 33);" ><i class="fa fa-fw fa-external-link-square fa-5x"></i><br> Go Back</button>
+ onGoBack(){
+    this.router.navigate(['/manageMf'])
+  }
+|number : '1.2-2'
+date
+
+
+
+ #iForm = "ngForm"
+ #nameRef="ngModel" required 
+
+   <div [hidden]="nameRef.valid || nameRef.pristine" class="alert alert-danger">
+                            Please Enter a Name
+                        </div>
+
+ [disabled]="!iForm.form.valid" 
