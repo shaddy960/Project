@@ -18,3 +18,21 @@ date
                         </div>
 
  [disabled]="!iForm.form.valid" 
+ 
+ public boolean validateBank(String userId, String password) throws IBSException {
+		
+		BankAdmins ba  = baObject.getBankById(userId);
+		if (ba != null && userId.equals(ba.getAdminId())) {
+
+			String correctPassword = ba.getPassword();
+			if (password.equals(correctPassword)) {
+				return true;
+
+			}else {
+				throw new IBSException(ErrorMessages.INVALID_USERNAME_MESSAGE);
+			}
+		}else {
+			throw new IBSException(ErrorMessages.INVALID_USERNAME_MESSAGE);
+		}
+
+	}
